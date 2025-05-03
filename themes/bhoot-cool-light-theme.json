@@ -2,8 +2,8 @@
     "name": "Bhoot - Cool Light Theme",
     "type": "light",
     "colors": {
-      "editor.background": "#FAFAFA",
-      "editor.foreground": "#383A42",
+      "editor.background": "#ffffff",
+      "editor.foreground": "#000000",
       "editorLineNumber.foreground": "#A0A1A7",
       "editorCursor.foreground": "#D75F5F",
       "editor.selectionBackground": "#D0D0D0",
@@ -11,20 +11,31 @@
       "editor.lineHighlightBackground": "#EFEFEF",
       "editorIndentGuide.background": "#E0E0E0",
       "editorIndentGuide.activeBackground": "#C0C0C0",
-      "sideBar.background": "#F5F5F5",
-      "sideBar.foreground": "#4B4B4B",
-      "activityBar.background": "#EAEAEA",
-      "activityBar.foreground": "#005F87",
+      "editorGroupHeader.tabsBackground": "#faeb69",
+      "tab.border": "#faeb69",
+      "editorGroup.border": "#faeb69",
+      "sideBar.background": "#ffffe6",
+      "sideBar.foreground": "#000000",
+      "activityBar.background": "#faeb69",
+      "activityBar.foreground": "#331a00",
       "tab.activeBackground": "#FFFFFF",
       "tab.activeForeground": "#005F87",
-      "tab.inactiveBackground": "#F0F0F0",
-      "tab.inactiveForeground": "#7A7A7A",
-      "statusBar.background": "#E0E0E0",
-      "statusBar.foreground": "#383A42",
-      "titleBar.activeBackground": "#FAFAFA",
-      "titleBar.activeForeground": "#383A42",
-      "terminal.background": "#FAFAFA",
-      "terminal.foreground": "#383A42"
+      "tab.selectedBorderTop": "#331a00",
+      "tab.inactiveBackground": "#faeb69",
+      "tab.inactiveForeground": "#000000",
+      "statusBar.background": "#ffffe6",
+      "statusBar.foreground": "#000000",
+      "statusBar.noFolderBackground": "#ffffe6",
+      "statusBarItem.remoteBackground": "#331a00",
+      "titleBar.activeBackground": "#faeb69",
+      "titleBar.activeForeground": "#000000",
+      "terminal.background": "#e6fff2",
+      "terminal.foreground": "#383A42",
+      "button.background": "#e6fff2",
+      "button.foreground": "#000000",
+      "button.border": "#331a00",
+      "badge.background": "#331a00",
+      "badge.foreground": "#ffffff"
     },
     "tokenColors": [
       {
@@ -37,8 +48,8 @@
       {
         "scope": ["keyword", "storage.type"],
         "settings": {
-          "foreground": "#D75F5F",
-          "fontStyle": "bold"
+          "foreground": "#4d4dff",
+          "fontStyle": "italic"
         }
       },
       {
@@ -57,6 +68,7 @@
         "scope": ["function", "entity.name.function"],
         "settings": {
           "foreground": "#4078F2"
+          
         }
       },
       {
@@ -68,7 +80,8 @@
       {
         "scope": ["type", "entity.name.type", "support.type"],
         "settings": {
-          "foreground": "#C18401"
+          "foreground": "#6b00b3",
+          "fontStyle": "underline"
         }
       },
       {

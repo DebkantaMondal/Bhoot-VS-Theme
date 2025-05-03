@@ -14,12 +14,12 @@
   "contributes": {
     "themes": [
       {
-        "label": "🌑 Bhoot - Default Dark Theme",
+        "label": "🪈🦚 Krishna - Default Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/bhoot-default-dark-theme.json"
       },
       {
-        "label": "🌕 Bhhot - Cool Light Theme",
+        "label": "🪕🦢 Saraswati - Cool Light Theme",
         "uiTheme": "vs",
         "path": "./themes/bhoot-cool-light-theme.json"
       }
