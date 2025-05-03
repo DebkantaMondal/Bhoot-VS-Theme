@@ -1,0 +1,41 @@
+
+{
+  "name": "bhoot-theme",
+  "displayName": "🎨 Bhoot Theme",
+  "description": "💡 A clean light/dark theme set with modern colors and a friendly command.",
+  "version": "1.0.0",
+  "publisher": "Debkanta Mondal",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Themes"],
+  "main": "./extension.js",
+  "icon": "images/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "🌑 Bhoot - Default Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bhoot-default-dark-theme.json"
+      },
+      {
+        "label": "🌕 Bhhot - Cool Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/bhoot-cool-light-theme.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "bhoot.hi",
+        "title": "👋 Welcome to the World of Bhoot Themes"
+      }
+    ]
+  },
+  "activationEvents": ["onCommand:bhoot.hi"],
+  "scripts": {
+    "vscode:prepublish": "vsce package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.70.0"
+  }
+}

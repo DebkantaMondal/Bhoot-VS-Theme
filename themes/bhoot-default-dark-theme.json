@@ -1,0 +1,89 @@
+{
+    "name": "Bhoot - Default Dark Theme",
+    "type": "dark",
+    "colors": {
+      "editor.background": "#1E1E2E",
+      "editor.foreground": "#D9E0EE",
+      "editorLineNumber.foreground": "#5C6370",
+      "editorCursor.foreground": "#F38BA8",
+      "editor.selectionBackground": "#44475A",
+      "editor.inactiveSelectionBackground": "#343A40",
+      "editor.lineHighlightBackground": "#2A2A37",
+      "editorIndentGuide.background": "#3B3B4F",
+      "editorIndentGuide.activeBackground": "#CBA6F7",
+      "sideBar.background": "#181825",
+      "sideBar.foreground": "#A6ADC8",
+      "activityBar.background": "#1E1E2E",
+      "activityBar.foreground": "#CBA6F7",
+      "tab.activeBackground": "#1E1E2E",
+      "tab.activeForeground": "#D9E0EE",
+      "tab.inactiveBackground": "#1A1A2E",
+      "tab.inactiveForeground": "#6E738D",
+      "statusBar.background": "#181825",
+      "statusBar.foreground": "#A6ADC8",
+      "titleBar.activeBackground": "#1E1E2E",
+      "titleBar.activeForeground": "#D9E0EE",
+      "terminal.background": "#1E1E2E",
+      "terminal.foreground": "#D9E0EE"
+    },
+    "tokenColors": [
+      {
+        "scope": ["comment", "punctuation.definition.comment"],
+        "settings": {
+          "foreground": "#6C7086",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["keyword", "storage.type"],
+        "settings": {
+          "foreground": "#F38BA8",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": ["string", "constant.other.symbol"],
+        "settings": {
+          "foreground": "#A6E3A1"
+        }
+      },
+      {
+        "scope": ["variable", "identifier"],
+        "settings": {
+          "foreground": "#D9E0EE"
+        }
+      },
+      {
+        "scope": ["function", "entity.name.function"],
+        "settings": {
+          "foreground": "#89B4FA"
+        }
+      },
+      {
+        "scope": ["constant.numeric", "constant.language"],
+        "settings": {
+          "foreground": "#F9E2AF"
+        }
+      },
+      {
+        "scope": ["type", "entity.name.type", "support.type"],
+        "settings": {
+          "foreground": "#CBA6F7"
+        }
+      },
+      {
+        "scope": ["invalid", "invalid.deprecated"],
+        "settings": {
+          "foreground": "#FFFFFF",
+          "background": "#F38BA8"
+        }
+      },
+      {
+        "scope": ["meta", "meta.embedded"],
+        "settings": {
+          "foreground": "#94E2D5"
+        }
+      }
+    ]
+  }
+  
