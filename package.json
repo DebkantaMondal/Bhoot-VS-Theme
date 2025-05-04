@@ -1,14 +1,18 @@
-
 {
   "name": "bhoot-theme",
   "displayName": "🎨 Bhoot Theme",
   "description": "💡 A clean light/dark theme set with modern colors and a friendly command.",
   "version": "1.0.0",
-  "publisher": "Bhoot Studio",
+  "publisher": "BhootStudio",
+  "repository": {
+    "url": "https://github.com/DebkantaMondal/Bhoot-VS-Theme"
+  },
   "engines": {
     "vscode": "^1.70.0"
   },
-  "categories": ["Themes"],
+  "categories": [
+    "Themes"
+  ],
   "main": "./extension.js",
   "icon": "images/logo.png",
   "author": {
@@ -31,11 +35,11 @@
       }
     ]
   },
-  "activationEvents": ["onCommand:bhoot.hi"],
-  "scripts": {
-    "vscode:prepublish": "vsce package"
-  },
+  "activationEvents": [
+    "onCommand:bhoot.hi"
+  ],
   "devDependencies": {
-    "@types/vscode": "^1.70.0"
+    "@types/vscode": "^1.70.0",
+    "typescript": "^5.8.3"
   }
 }
