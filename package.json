@@ -4,24 +4,24 @@
   "displayName": "🎨 Bhoot Theme",
   "description": "💡 A clean light/dark theme set with modern colors and a friendly command.",
   "version": "1.0.0",
-  "publisher": "Debkanta Mondal",
+  "publisher": "Bhoot Studio",
   "engines": {
     "vscode": "^1.70.0"
   },
   "categories": ["Themes"],
   "main": "./extension.js",
-  "icon": "images/icon.png",
+  "icon": "images/logo.png",
+  "author": {
+    "name": "Debkanta Mondal",
+    "email": "debkantaroni01@gmail.com",
+    "url": "https://debkantamondal.website"
+  },
   "contributes": {
     "themes": [
       {
         "label": "🪈🦚 Krishna - Default Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/bhoot-default-dark-theme.json"
-      },
-      {
-        "label": "🪕🦢 Saraswati - Cool Light Theme",
-        "uiTheme": "vs",
-        "path": "./themes/bhoot-cool-light-theme.json"
       }
     ],
     "commands": [
