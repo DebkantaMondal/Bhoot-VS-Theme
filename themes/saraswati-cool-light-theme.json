@@ -38,9 +38,9 @@
     "activityBar.foreground": "#4d2600",
     "activityBarBadge.background": "#4d2600",
     "activityBarBadge.foreground": "#ffffcc",
-    "statusBar.background": "#ECEFF1",
-    "statusBar.foreground": "#ffffcc",
-    "statusBar.debuggingBackground": "#F44336",
+    "statusBar.background": "#4d2600",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.debuggingBackground": "#4d2600",
     "statusBar.debuggingForeground": "#FFFFFF",
     "statusBar.noFolderBackground": "#4d2600",
     "statusBar.noFolderForeground": "#FFFFFF",
@@ -132,7 +132,7 @@
       "name": "CSS Unit",
       "scope": "keyword.other.unit.css",
       "settings": {
-        "foreground": "#FFD600"
+        "foreground": "#4d2600"
       }
     },
     {
@@ -182,7 +182,7 @@
       "name": "YAML Key",
       "scope": "entity.name.tag.yaml",
       "settings": {
-        "foreground": "#FFAB00"
+        "foreground": "#4d2600"
       }
     },
     {
@@ -204,7 +204,7 @@
       "name": "JSON Property Name",
       "scope": "support.type.property-name.json",
       "settings": {
-        "foreground": "#FFD54F"
+        "foreground": "#4d2600"
       }
     },
     {
