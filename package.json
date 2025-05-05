@@ -1,8 +1,8 @@
 {
   "name": "bhoot-theme",
   "displayName": "🎨 Bhoot Theme",
-  "description": "💡 A clean light/dark theme set with modern colors and a friendly command.",
-  "version": "1.0.1",
+  "description": "💡 A clean light/dark theme set with Unique Color Pallete and Philosophy behind in Indian Art way",
+  "version": "1.0.2",
   "publisher": "BhootStudio",
   "repository": {
     "url": "https://github.com/DebkantaMondal/Bhoot-VS-Theme"
@@ -25,7 +25,12 @@
       {
         "label": "🪈🦚 Krishna - Default Dark Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/bhoot-default-dark-theme.json"
+        "path": "./themes/krishna-default-dark-theme.json"
+      },
+      {
+        "label": "🪕🦢 Saraswati - Cool Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/saraswati-cool-light-theme.json"
       }
     ],
     "commands": [
