@@ -17,6 +17,13 @@
 
 ---
 
+### 3. More Themes Can Choose and Activate - Depending on Your Mood/Personality
+
+- **Saraswati - Cool Light Theme**
+- **Narasimha - Fearless Dark Theme**
+
+---
+
 ### 3. (Optional) Recommended Settings
 
 Add this to your `settings.json` for the best experience:
