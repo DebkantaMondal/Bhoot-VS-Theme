@@ -2,7 +2,7 @@
   "name": "bhoot-theme",
   "displayName": "🎨 Bhoot Theme",
   "description": "💡 A clean light/dark theme set with Unique Color Pallete and Philosophy in Indian Art way | Bhoot Studio is trying to create Artworks for Digital Products with Unique Color Pallet and Philosophy on Indian Art Theory and Spirituality",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "publisher": "BhootStudio",
   "repository": {
     "url": "https://github.com/DebkantaMondal/Bhoot-VS-Theme"
@@ -31,6 +31,11 @@
         "label": "🪕🦢 Saraswati - Cool Light Theme",
         "uiTheme": "vs",
         "path": "./themes/saraswati-cool-light-theme.json"
+      },
+      {
+        "label": "👑🦁 Narasimha - Fearless Dark Theme",
+        "uiTheme": "vs",
+        "path": "./themes/narasimha-fearless-dark-theme.json"
       }
     ],
     "commands": [
